@@ -1,0 +1,26 @@
+/* Variáveis CSS 
+As variáveis armazenam valores que podem ser reutilizados 
+em todo o projeto. Ajudam a manter a consistência e 
+facilitam a manutenção do código.
+Esta estrutura pode ser reutilizada em outros projetos, 
+mas os valores são específicos para este projeto.
+*/
+
+:root {
+    /* Cores */
+    --background-color: #f7f0e1;
+    --section-odd-color: #decfb1;
+    --section-even-color: #e2d7c0;
+    --border-color: #ddd;
+    --text-color: #333333;
+    --banner-border-color: rgb(94, 44, 13);
+
+    /* Fontes */
+    --font-base: Inter, sans-serif;
+
+    /* Espaçamentos de texto */
+    --text-padding-h: 100px;   /* padding lateral de parágrafos */
+    --text-indent: 5%;
+    --line-height-p: 1.7;
+    --line-height-li: 1.6;
+}

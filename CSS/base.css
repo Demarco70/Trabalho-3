@@ -1,0 +1,42 @@
+/* Customização de elementos básicos (normalmente tags)
+html, body, p, h1, h2, h3, h4, h5, h6, ol, li*/
+
+body {
+    font-family: var(--font-base);
+}
+
+p {
+    text-align: justify;
+    text-indent: var(--text-indent);
+    line-height: var(--line-height-p);
+    padding-left: var(--text-padding-h);
+    padding-right: var(--text-padding-h);
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+
+p::first-letter {
+    font-size: 115%;
+}
+
+h2 {
+    text-align: start;
+    padding-left: var(--text-padding-h);
+}
+
+ol {
+    padding-left: 120px;
+    padding-right: var(--text-padding-h);
+    padding-bottom: 50px;
+}
+
+li {
+    text-align: justify;
+    line-height: var(--line-height-li);
+}
+
+img, picture, video, canvas, svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
